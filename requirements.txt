@@ -1,6 +1,6 @@
 # CPI Tender Matcher — Requirements
 # Groq LLM client
-groq>=0.9.0
+groq==0.9.0
 
 # Install: pip install -r requirements.txt
 # Compatible with Python 3.11–3.14 (Streamlit Cloud)
