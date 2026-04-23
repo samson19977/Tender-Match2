@@ -1,0 +1,326 @@
+[
+  {
+    "id": "T001",
+    "title": "Programme Biogaz et Compostage",
+    "sector": "wastetech",
+    "budget": 1000000,
+    "deadline": "12 August 2026",
+    "region": "Central Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T002",
+    "title": "Programme Finance Coop\u00e9rative Mobile",
+    "sector": "fintech",
+    "budget": 200000,
+    "deadline": "21 June 2026",
+    "region": "Southern Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T003",
+    "title": "Green Technology Innovation Award",
+    "sector": "cleantech",
+    "budget": 50000,
+    "deadline": "13 August 2026",
+    "region": "East Africa",
+    "language": "en"
+  },
+  {
+    "id": "T004",
+    "title": "Smallholder AgriTech Scale-Up Grant",
+    "sector": "agritech",
+    "budget": 50000,
+    "deadline": "09 June 2026",
+    "region": "Central Africa",
+    "language": "en"
+  },
+  {
+    "id": "T005",
+    "title": "Circular Economy Innovation Grant",
+    "sector": "wastetech",
+    "budget": 5000,
+    "deadline": "07 August 2026",
+    "region": "West Africa",
+    "language": "en"
+  },
+  {
+    "id": "T006",
+    "title": "Offline Education Technology Grant",
+    "sector": "edtech",
+    "budget": 50000,
+    "deadline": "20 July 2026",
+    "region": "Central Africa",
+    "language": "en"
+  },
+  {
+    "id": "T007",
+    "title": "Offline Education Technology Grant",
+    "sector": "edtech",
+    "budget": 5000,
+    "deadline": "12 June 2026",
+    "region": "East Africa",
+    "language": "en"
+  },
+  {
+    "id": "T008",
+    "title": "Programme \u00c9ducation Hors-Ligne",
+    "sector": "edtech",
+    "budget": 200000,
+    "deadline": "22 June 2026",
+    "region": "Central Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T009",
+    "title": "Clean Energy Access Fund",
+    "sector": "cleantech",
+    "budget": 5000,
+    "deadline": "13 June 2026",
+    "region": "East Africa",
+    "language": "en"
+  },
+  {
+    "id": "T010",
+    "title": "Programme Finance Coop\u00e9rative Mobile",
+    "sector": "fintech",
+    "budget": 200000,
+    "deadline": "19 July 2026",
+    "region": "West Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T011",
+    "title": "Precision Farming Support Fund",
+    "sector": "agritech",
+    "budget": 5000,
+    "deadline": "01 June 2026",
+    "region": "East Africa",
+    "language": "en"
+  },
+  {
+    "id": "T012",
+    "title": "Subvention \u00c9conomie Circulaire",
+    "sector": "wastetech",
+    "budget": 200000,
+    "deadline": "24 July 2026",
+    "region": "East Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T013",
+    "title": "Subvention Technologie Sant\u00e9 Rurale",
+    "sector": "healthtech",
+    "budget": 1000000,
+    "deadline": "17 July 2026",
+    "region": "Southern Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T014",
+    "title": "Rural Digital Literacy Programme",
+    "sector": "edtech",
+    "budget": 1000000,
+    "deadline": "16 June 2026",
+    "region": "East Africa",
+    "language": "en"
+  },
+  {
+    "id": "T015",
+    "title": "Subvention \u00c9nergie Renouvelable",
+    "sector": "cleantech",
+    "budget": 200000,
+    "deadline": "01 August 2026",
+    "region": "West Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T016",
+    "title": "Digital Agriculture Innovation Grant",
+    "sector": "agritech",
+    "budget": 5000,
+    "deadline": "30 May 2026",
+    "region": "West Africa",
+    "language": "en"
+  },
+  {
+    "id": "T017",
+    "title": "Subvention Inclusion Financi\u00e8re",
+    "sector": "fintech",
+    "budget": 5000,
+    "deadline": "29 June 2026",
+    "region": "Southern Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T018",
+    "title": "Financial Inclusion Innovation Grant",
+    "sector": "fintech",
+    "budget": 50000,
+    "deadline": "02 June 2026",
+    "region": "East Africa",
+    "language": "en"
+  },
+  {
+    "id": "T019",
+    "title": "Financial Inclusion Innovation Grant",
+    "sector": "fintech",
+    "budget": 50000,
+    "deadline": "15 August 2026",
+    "region": "Southern Africa",
+    "language": "en"
+  },
+  {
+    "id": "T020",
+    "title": "Digital Health Access Programme",
+    "sector": "healthtech",
+    "budget": 5000,
+    "deadline": "13 August 2026",
+    "region": "Central Africa",
+    "language": "en"
+  },
+  {
+    "id": "T021",
+    "title": "Subvention \u00c9nergie Renouvelable",
+    "sector": "cleantech",
+    "budget": 50000,
+    "deadline": "25 June 2026",
+    "region": "Southern Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T022",
+    "title": "Subvention Technologie Sant\u00e9 Rurale",
+    "sector": "healthtech",
+    "budget": 200000,
+    "deadline": "01 August 2026",
+    "region": "Central Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T023",
+    "title": "Digital Agriculture Innovation Grant",
+    "sector": "agritech",
+    "budget": 50000,
+    "deadline": "08 August 2026",
+    "region": "East Africa",
+    "language": "en"
+  },
+  {
+    "id": "T024",
+    "title": "Cooperative Finance Technology Grant",
+    "sector": "fintech",
+    "budget": 5000,
+    "deadline": "28 May 2026",
+    "region": "Southern Africa",
+    "language": "en"
+  },
+  {
+    "id": "T025",
+    "title": "Fonds Innovation Apprentissage Num\u00e9rique",
+    "sector": "edtech",
+    "budget": 1000000,
+    "deadline": "19 August 2026",
+    "region": "Southern Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T026",
+    "title": "Rural Health Technology Grant",
+    "sector": "healthtech",
+    "budget": 5000,
+    "deadline": "28 May 2026",
+    "region": "West Africa",
+    "language": "en"
+  },
+  {
+    "id": "T027",
+    "title": "Waste-to-Value Technology Fund",
+    "sector": "wastetech",
+    "budget": 50000,
+    "deadline": "14 June 2026",
+    "region": "Central Africa",
+    "language": "en"
+  },
+  {
+    "id": "T028",
+    "title": "Circular Economy Innovation Grant",
+    "sector": "wastetech",
+    "budget": 5000,
+    "deadline": "27 May 2026",
+    "region": "Southern Africa",
+    "language": "en"
+  },
+  {
+    "id": "T029",
+    "title": "Subvention pour l'Innovation Agricole Num\u00e9rique",
+    "sector": "agritech",
+    "budget": 200000,
+    "deadline": "16 June 2026",
+    "region": "Central Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T030",
+    "title": "Digital Health Access Programme",
+    "sector": "healthtech",
+    "budget": 5000,
+    "deadline": "25 June 2026",
+    "region": "Central Africa",
+    "language": "en"
+  },
+  {
+    "id": "T031",
+    "title": "Digital Health Access Programme",
+    "sector": "healthtech",
+    "budget": 50000,
+    "deadline": "04 August 2026",
+    "region": "Southern Africa",
+    "language": "en"
+  },
+  {
+    "id": "T032",
+    "title": "Fonds d'Acc\u00e8s \u00e0 l'\u00c9nergie Propre",
+    "sector": "cleantech",
+    "budget": 1000000,
+    "deadline": "02 July 2026",
+    "region": "West Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T033",
+    "title": "Subvention pour l'Innovation Agricole Num\u00e9rique",
+    "sector": "agritech",
+    "budget": 1000000,
+    "deadline": "08 June 2026",
+    "region": "Central Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T034",
+    "title": "Mobile Money Expansion Award",
+    "sector": "fintech",
+    "budget": 50000,
+    "deadline": "18 June 2026",
+    "region": "Central Africa",
+    "language": "en"
+  },
+  {
+    "id": "T035",
+    "title": "Prix Innovation Technologie Verte",
+    "sector": "cleantech",
+    "budget": 1000000,
+    "deadline": "02 June 2026",
+    "region": "Southern Africa",
+    "language": "fr"
+  },
+  {
+    "id": "T036",
+    "title": "Programme Finance Coop\u00e9rative Mobile",
+    "sector": "fintech",
+    "budget": 1000000,
+    "deadline": "28 May 2026",
+    "region": "West Africa",
+    "language": "fr"
+  }
+]

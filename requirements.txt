@@ -1,0 +1,21 @@
+# CPI Tender Matcher — Requirements
+# Install: pip install -r requirements.txt
+# Compatible with Python 3.11–3.14 (Streamlit Cloud)
+
+# Streamlit UI
+streamlit>=1.35.0
+
+# Core ML/NLP
+scikit-learn>=1.4.2
+numpy>=1.26.4
+
+# Text processing
+beautifulsoup4>=4.12.3
+
+# PDF parsing
+pypdf>=4.0.0
+
+# Data analysis (for notebooks)
+pandas>=2.2.2
+matplotlib>=3.9.0
+seaborn>=0.13.2

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01",
+    "name": "AgriGrow Rwanda",
+    "sector": "agritech",
+    "country": "Rwanda",
+    "employees": 12,
+    "languages": ["en"],
+    "needs_text": "We need funding to scale our precision farming app that helps smallholder farmers monitor crop health using satellite imagery and SMS alerts.",
+    "past_funding": 5000,
+    "budget_max": 50000,
+    "region": "East Africa"
+  },
+  {
+    "id": "02",
+    "name": "SantéPlus Senegal",
+    "sector": "healthtech",
+    "country": "Senegal",
+    "employees": 8,
+    "languages": ["fr"],
+    "needs_text": "Nous cherchons un financement pour déployer notre application de télémédecine dans les zones rurales du Sénégal, en ciblant les femmes et les enfants.",
+    "past_funding": 10000,
+    "budget_max": 200000,
+    "region": "West Africa"
+  },
+  {
+    "id": "03",
+    "name": "CleanEnergy Kenya",
+    "sector": "cleantech",
+    "country": "Kenya",
+    "employees": 25,
+    "languages": ["en"],
+    "needs_text": "We develop affordable solar home systems for off-grid communities in rural Kenya. Looking for grant funding to expand to 5 new counties.",
+    "past_funding": 50000,
+    "budget_max": 1000000,
+    "region": "East Africa"
+  },
+  {
+    "id": "04",
+    "name": "EduConnect DRC",
+    "sector": "edtech",
+    "country": "DRC",
+    "employees": 6,
+    "languages": ["fr"],
+    "needs_text": "Notre plateforme d'apprentissage hors ligne permet aux élèves ruraux d'accéder aux cours sans connexion internet. Nous cherchons un financement pour produire des tablettes à faible coût.",
+    "past_funding": 0,
+    "budget_max": 50000,
+    "region": "Central Africa"
+  },
+  {
+    "id": "05",
+    "name": "FinAccess Ethiopia",
+    "sector": "fintech",
+    "country": "Ethiopia",
+    "employees": 15,
+    "languages": ["en"],
+    "needs_text": "We provide mobile-based microloans and savings products for rural cooperatives in Ethiopia. Seeking expansion capital to onboard 10,000 new users.",
+    "past_funding": 20000,
+    "budget_max": 200000,
+    "region": "East Africa"
+  },
+  {
+    "id": "06",
+    "name": "WasteWise Rwanda",
+    "sector": "wastetech",
+    "country": "Rwanda",
+    "employees": 10,
+    "languages": ["en", "fr"],
+    "needs_text": "We convert organic waste into biogas and compost for urban households. We need funding to install 500 biodigesters in Kigali and secondary cities.",
+    "past_funding": 15000,
+    "budget_max": 200000,
+    "region": "East Africa"
+  },
+  {
+    "id": "07",
+    "name": "AgriCoopérative Kinshasa",
+    "sector": "agritech",
+    "country": "DRC",
+    "employees": 30,
+    "languages": ["fr"],
+    "needs_text": "Nous regroupons 200 petits agriculteurs autour de Kinshasa pour commercialiser leurs produits collectivement. Nous cherchons un financement pour construire un entrepôt frigorifique commun.",
+    "past_funding": 8000,
+    "budget_max": 200000,
+    "region": "Central Africa"
+  },
+  {
+    "id": "08",
+    "name": "HealthBridge Uganda",
+    "sector": "healthtech",
+    "country": "Uganda",
+    "employees": 18,
+    "languages": ["en"],
+    "needs_text": "We train community health workers using a mobile app with offline video modules. Seeking grant funding to expand to Northern Uganda districts.",
+    "past_funding": 30000,
+    "budget_max": 50000,
+    "region": "East Africa"
+  },
+  {
+    "id": "09",
+    "name": "SolarEdu Senegal",
+    "sector": "edtech",
+    "country": "Senegal",
+    "employees": 5,
+    "languages": ["fr", "en"],
+    "needs_text": "We combine solar energy and digital learning in one kit for rural schools. Each kit powers 20 tablets for 8 hours. Looking for seed funding to scale to 100 schools.",
+    "past_funding": 5000,
+    "budget_max": 50000,
+    "region": "West Africa"
+  },
+  {
+    "id": "10",
+    "name": "GreenFinance Kenya",
+    "sector": "fintech",
+    "country": "Kenya",
+    "employees": 22,
+    "languages": ["en"],
+    "needs_text": "We offer green bonds and climate-linked loans to smallholder farmers adopting sustainable agriculture practices. Seeking funding to build our credit scoring model.",
+    "past_funding": 75000,
+    "budget_max": 1000000,
+    "region": "East Africa"
+  }
+]
