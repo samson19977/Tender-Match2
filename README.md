@@ -90,7 +90,7 @@ python generate_data.py && python matcher.py --profile 02 --topk 5
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/cpi-tender-matcher
+git clone https://github.com/samson19977/Tender-Match2
 cd cpi-tender-matcher
 
 # Install
@@ -189,11 +189,6 @@ See [`village_agent.md`](village_agent.md) for the full offline deployment strat
 
 ---
 
-## 🎥 Demo Video
-
-[📺 Watch 4-minute demo →](YOUR_VIDEO_URL_HERE)
-
----
 
 ## ⚙️ Technical Constraints Met
 
