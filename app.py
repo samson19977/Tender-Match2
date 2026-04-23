@@ -462,7 +462,7 @@ if match_btn:
             plain_summary += f"Number {i}: {m['title']}, score {m['score']:.2f}. "
 
         st.subheader("📥 Export Results")
-        tab1, tab2, tab3 = st.tabs(["📄 Markdown", "📊 JSON Scores", "🔊 Plain Text (Audio/WhatsApp)"])
+        tab1, tab2, tab3 = st.tabs(["📄 Markdown Preview", "📊 JSON Scores", "🔊 Plain Text (Audio/WhatsApp)"])
 
         with tab1:
             st.download_button(
@@ -471,7 +471,61 @@ if match_btn:
                 file_name=f"matches_{profile_id}_{lang}.md",
                 mime="text/markdown",
             )
-            st.code(results_md, language="markdown")
+            st.divider()
+            # Build a richer markdown document and render it properly
+            header_md = (
+                f"## 🌍 Tender Match Report\n"
+                f"**Organisation:** {profile.get('name', '—')} &nbsp;|&nbsp; "
+                f"**Sector:** {profile.get('sector', '—')} &nbsp;|&nbsp; "
+                f"**Country:** {profile.get('country', '—')}\n\n"
+                f"**Language:** {lang.upper()} &nbsp;|&nbsp; "
+                f"**LLM Explanations:** {'✅ Yes' if use_llm and GROQ_AVAILABLE else '❌ No'} &nbsp;|&nbsp; "
+                f"**Processing time:** {elapsed:.2f}s\n\n"
+                f"---\n"
+            )
+            st.markdown(header_md)
+
+            for rank_idx, match in enumerate(matches, 1):
+                score      = match["score"]
+                breakdown  = match["breakdown"]
+                budget_str = format_budget(match.get("budget", 0))
+                lang_badge = "🇫🇷 FR" if match["language"] == "fr" else "🇬🇧 EN"
+                disq       = get_top_disqualifier(profile, match)
+
+                # Retrieve already-generated summary from results_lines
+                summary_text = ""
+                for line in results_lines:
+                    if line.startswith(f"> ") and results_lines.index(line) > 0:
+                        prev = results_lines[results_lines.index(line) - 2]
+                        if f"#{rank_idx} —" in prev:
+                            summary_text = line[2:].strip()
+                            break
+
+                score_pct = int(score * 100)
+                bar_filled = "█" * (score_pct // 5)
+                bar_empty  = "░" * (20 - score_pct // 5)
+
+                match_md = (
+                    f"### #{rank_idx} — {match['title']}\n\n"
+                    f"| Field | Value |\n"
+                    f"|---|---|\n"
+                    f"| 🏷 Sector | `{match['sector']}` |\n"
+                    f"| 💰 Budget | {budget_str} |\n"
+                    f"| 📅 Deadline | {match['deadline']} |\n"
+                    f"| 🌍 Region | {match['region']} |\n"
+                    f"| 🗣 Language | {lang_badge} |\n"
+                    f"| 🎯 Score | **{score:.4f}** — `{bar_filled}{bar_empty}` |\n\n"
+                    f"**Score Breakdown:** "
+                    f"TF-IDF `{breakdown['tfidf_similarity']:.3f}` · "
+                    f"Sector `{breakdown['sector_match']:.3f}` · "
+                    f"Budget `{breakdown['budget_score']:.3f}` · "
+                    f"Urgency `{breakdown['urgency_score']:.3f}`\n\n"
+                    f"> ⚠️ **Biggest disqualifier:** {disq}\n\n"
+                )
+                st.markdown(match_md)
+                if summary_text:
+                    st.info(summary_text)
+                st.divider()
 
         with tab2:
             st.download_button(
