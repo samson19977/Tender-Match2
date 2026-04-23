@@ -1,7 +1,7 @@
 # Honor Code — Signed
 
 **Full Name:** Samson Niyizurugero  
-**Date:** 2025-07-15  
+**Date:** 2026-04-23  
 **Challenge:** AIMS KTT Hackathon · T2.2 · Multilingual Grant & Tender Matcher with Summarizer
 
 ---
@@ -13,4 +13,4 @@
 ---
 
 **Signed:** Samson Niyizurugero  
-**Date:** 2025-07-15
+**Date:**2026-04-23  
