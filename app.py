@@ -2,7 +2,7 @@
 """
 app.py — Streamlit UI for CPI Tender Matcher
 Enhanced with:
-  - Groq LLM (openai/gpt-oss-20b) for intelligent match explanations
+  - Agentic resoning for intelligent match explanations
   - Custom profile input: manual form OR PDF upload
   - Existing pre-built profile selection preserved
 
