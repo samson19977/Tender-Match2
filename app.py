@@ -207,12 +207,12 @@ st.title("🌍 CPI Tender Matcher")
 st.markdown(
     "**Multilingual Grant Finder for African Cooperatives**  \n"
     "AIMS KTT Hackathon · T2.2 | Author: Samson Niyizurugero  \n"
-    "Supports English 🇬🇧 and French 🇫🇷 · Powered by **Groq LLM** ⚡"
+    "Supports English 🇬🇧 and French 🇫🇷 ·"
 )
 if GROQ_AVAILABLE:
-    st.success(f"⚡ Groq LLM active — model: `{GROQ_MODEL}`")
+    st.success(f" Groq LLM active — model: `{GROQ_MODEL}`")
 else:
-    st.warning("⚠️ `groq` package not installed. Run `pip install groq` to enable LLM explanations.")
+    st.warning(" `groq` package not installed. Run `pip install groq` to enable LLM explanations.")
 
 st.divider()
 
